@@ -34,10 +34,11 @@
 		E509B43D1BCC4D1700D2D3C5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B43C1BCC4D1700D2D3C5 /* Security.framework */; };
 		E509B43F1BCC4D2300D2D3C5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B43E1BCC4D2300D2D3C5 /* StoreKit.framework */; };
 		E509B4411BCC4D2D00D2D3C5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4401BCC4D2D00D2D3C5 /* SystemConfiguration.framework */; };
-		E509B4431BCC4EFA00D2D3C5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4421BCC4EFA00D2D3C5 /* libsqlite3.dylib */; };
-		E509B4451BCC4F1600D2D3C5 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4441BCC4F1600D2D3C5 /* libz.1.dylib */; };
 		E509B4471BCC4FF200D2D3C5 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4461BCC4FF200D2D3C5 /* ParseCrashReporting.framework */; };
-		E509B4491BCC505B00D2D3C5 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4481BCC505B00D2D3C5 /* libstdc++.6.0.9.dylib */; };
+		E50A01CB1BE02CA800B1371B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A01CA1BE02CA800B1371B /* libz.tbd */; };
+		E50A01CD1BE02CBD00B1371B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A01CC1BE02CBD00B1371B /* libsqlite3.tbd */; };
+		E50A01CF1BE02CF400B1371B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A01CE1BE02CF400B1371B /* libstdc++.6.0.9.tbd */; };
+		E50A01D11BE02D0F00B1371B /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A01D01BE02D0F00B1371B /* libz.1.tbd */; };
 		E5548CB81BD58D11006A619E /* EmpolymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5548CB71BD58D11006A619E /* EmpolymentViewController.swift */; };
 		E59765371BCC5CB400D42114 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59765361BCC5CB400D42114 /* Struct.swift */; };
 		E597EB521BCC6FD600DA1AC8 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */; };
@@ -85,10 +86,11 @@
 		E509B43C1BCC4D1700D2D3C5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		E509B43E1BCC4D2300D2D3C5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		E509B4401BCC4D2D00D2D3C5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		E509B4421BCC4EFA00D2D3C5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
-		E509B4441BCC4F1600D2D3C5 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
 		E509B4461BCC4FF200D2D3C5 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
-		E509B4481BCC505B00D2D3C5 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		E50A01CA1BE02CA800B1371B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E50A01CC1BE02CBD00B1371B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E50A01CE1BE02CF400B1371B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		E50A01D01BE02D0F00B1371B /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
 		E5548CB71BD58D11006A619E /* EmpolymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpolymentViewController.swift; sourceTree = "<group>"; };
 		E59765361BCC5CB400D42114 /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 		E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
@@ -99,9 +101,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E509B4491BCC505B00D2D3C5 /* libstdc++.6.0.9.dylib in Frameworks */,
-				E509B4451BCC4F1600D2D3C5 /* libz.1.dylib in Frameworks */,
-				E509B4431BCC4EFA00D2D3C5 /* libsqlite3.dylib in Frameworks */,
+				E50A01D11BE02D0F00B1371B /* libz.1.tbd in Frameworks */,
+				E50A01CF1BE02CF400B1371B /* libstdc++.6.0.9.tbd in Frameworks */,
+				E50A01CD1BE02CBD00B1371B /* libsqlite3.tbd in Frameworks */,
+				E50A01CB1BE02CA800B1371B /* libz.tbd in Frameworks */,
 				E509B4411BCC4D2D00D2D3C5 /* SystemConfiguration.framework in Frameworks */,
 				E509B43F1BCC4D2300D2D3C5 /* StoreKit.framework in Frameworks */,
 				E509B43D1BCC4D1700D2D3C5 /* Security.framework in Frameworks */,
@@ -129,9 +132,10 @@
 		0A9A4BA819F2785A00F81929 = {
 			isa = PBXGroup;
 			children = (
-				E509B4481BCC505B00D2D3C5 /* libstdc++.6.0.9.dylib */,
-				E509B4441BCC4F1600D2D3C5 /* libz.1.dylib */,
-				E509B4421BCC4EFA00D2D3C5 /* libsqlite3.dylib */,
+				E50A01D01BE02D0F00B1371B /* libz.1.tbd */,
+				E50A01CE1BE02CF400B1371B /* libstdc++.6.0.9.tbd */,
+				E50A01CC1BE02CBD00B1371B /* libsqlite3.tbd */,
+				E50A01CA1BE02CA800B1371B /* libz.tbd */,
 				E59765361BCC5CB400D42114 /* Struct.swift */,
 				E509B4461BCC4FF200D2D3C5 /* ParseCrashReporting.framework */,
 				E509B42E1BCC4C8500D2D3C5 /* Bolts.framework */,
