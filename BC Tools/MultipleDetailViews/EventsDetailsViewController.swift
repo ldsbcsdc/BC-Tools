@@ -90,7 +90,7 @@ class EventsDetailsViewController: UIViewController, EKEventEditViewDelegate {
     @IBAction func addToCalendar(sender: AnyObject) {
         
         let eventController = EKEventEditViewController()
-        let editViewDelegate: EKEventEditViewDelegate!
+        //let editViewDelegate: EKEventEditViewDelegate!
         let store = EKEventStore()
         eventController.eventStore = store
         eventController.editViewDelegate = self

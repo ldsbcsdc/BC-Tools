@@ -14,7 +14,6 @@
 		0A9A4BC019F2785B00F81929 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A4BBF19F2785B00F81929 /* Images.xcassets */; };
 		0A9A4BC319F2785B00F81929 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A4BC119F2785B00F81929 /* LaunchScreen.xib */; };
 		0A9A4BCF19F2785B00F81929 /* MultipleDetailViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A4BCE19F2785B00F81929 /* MultipleDetailViewsTests.swift */; };
-		0A9A4BD919F2897300F81929 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A4BD819F2897300F81929 /* TableViewController2.swift */; };
 		0A9A4BDB19F291A400F81929 /* DetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A4BDA19F291A400F81929 /* DetailViewController2.swift */; };
 		E509B4251BCC4A6E00D2D3C5 /* BCSAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B41C1BCC4A6E00D2D3C5 /* BCSAViewController.swift */; };
 		E509B4261BCC4A6E00D2D3C5 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B41D1BCC4A6E00D2D3C5 /* Cell.swift */; };
@@ -66,7 +65,6 @@
 		0A9A4BC819F2785B00F81929 /* BC Tools.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BC Tools.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9A4BCD19F2785B00F81929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A9A4BCE19F2785B00F81929 /* MultipleDetailViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleDetailViewsTests.swift; sourceTree = "<group>"; };
-		0A9A4BD819F2897300F81929 /* TableViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
 		0A9A4BDA19F291A400F81929 /* DetailViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController2.swift; sourceTree = "<group>"; };
 		E509B41C1BCC4A6E00D2D3C5 /* BCSAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCSAViewController.swift; sourceTree = "<group>"; };
 		E509B41D1BCC4A6E00D2D3C5 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 				0A9A4BB619F2785B00F81929 /* AppDelegate.swift */,
 				0A9A4BB819F2785B00F81929 /* MasterViewController.swift */,
 				0A9A4BBC19F2785B00F81929 /* Main.storyboard */,
-				0A9A4BD819F2897300F81929 /* TableViewController2.swift */,
 				0A9A4BBA19F2785B00F81929 /* DetailViewController.swift */,
 				E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */,
 				0A9A4BDA19F291A400F81929 /* DetailViewController2.swift */,
@@ -328,7 +325,6 @@
 				E509B4261BCC4A6E00D2D3C5 /* Cell.swift in Sources */,
 				E597EB521BCC6FD600DA1AC8 /* AboutUsViewController.swift in Sources */,
 				E509B4281BCC4A6E00D2D3C5 /* DealsTableViewController.swift in Sources */,
-				0A9A4BD919F2897300F81929 /* TableViewController2.swift in Sources */,
 				E5548CB81BD58D11006A619E /* EmpolymentViewController.swift in Sources */,
 				E509B4251BCC4A6E00D2D3C5 /* BCSAViewController.swift in Sources */,
 				0A9A4BDB19F291A400F81929 /* DetailViewController2.swift in Sources */,

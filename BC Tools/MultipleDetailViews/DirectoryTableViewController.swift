@@ -101,7 +101,7 @@ class DirectoryTableViewController: UITableViewController {
                 // Clear array before adding data.
                 self.departments.removeAll(keepCapacity: true)
                 
-                if let objects = objects as? [PFObject]! {
+                if let objects = objects as [PFObject]! {
                     // Loop through all objects.
                     for object in objects {
                         // Create local object with data from Parse object.
