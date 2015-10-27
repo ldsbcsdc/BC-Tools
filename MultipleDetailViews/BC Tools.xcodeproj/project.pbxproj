@@ -16,17 +16,17 @@
 		0A9A4BCF19F2785B00F81929 /* MultipleDetailViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A4BCE19F2785B00F81929 /* MultipleDetailViewsTests.swift */; };
 		0A9A4BD919F2897300F81929 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A4BD819F2897300F81929 /* TableViewController2.swift */; };
 		0A9A4BDB19F291A400F81929 /* DetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A4BDA19F291A400F81929 /* DetailViewController2.swift */; };
-		E509B4251BCC4A6E00D2D3C5 /* BCSAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B41C1BCC4A6E00D2D3C5 /* BCSAViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		E509B4261BCC4A6E00D2D3C5 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B41D1BCC4A6E00D2D3C5 /* Cell.swift */; settings = {ASSET_TAGS = (); }; };
-		E509B4271BCC4A6E00D2D3C5 /* DealsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B41E1BCC4A6E00D2D3C5 /* DealsDetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		E509B4281BCC4A6E00D2D3C5 /* DealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B41F1BCC4A6E00D2D3C5 /* DealsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		E509B4291BCC4A6E00D2D3C5 /* DirectoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B4201BCC4A6E00D2D3C5 /* DirectoryDetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		E509B42A1BCC4A6E00D2D3C5 /* DirectoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B4211BCC4A6E00D2D3C5 /* DirectoryTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		E509B42B1BCC4A6E00D2D3C5 /* EventsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B4221BCC4A6E00D2D3C5 /* EventsDetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		E509B42C1BCC4A6E00D2D3C5 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B4231BCC4A6E00D2D3C5 /* EventsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		E509B42D1BCC4A6E00D2D3C5 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B4241BCC4A6E00D2D3C5 /* FeedbackViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		E509B4301BCC4C8500D2D3C5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B42E1BCC4C8500D2D3C5 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
-		E509B4311BCC4C8500D2D3C5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B42F1BCC4C8500D2D3C5 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		E509B4251BCC4A6E00D2D3C5 /* BCSAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B41C1BCC4A6E00D2D3C5 /* BCSAViewController.swift */; };
+		E509B4261BCC4A6E00D2D3C5 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B41D1BCC4A6E00D2D3C5 /* Cell.swift */; };
+		E509B4271BCC4A6E00D2D3C5 /* DealsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B41E1BCC4A6E00D2D3C5 /* DealsDetailsViewController.swift */; };
+		E509B4281BCC4A6E00D2D3C5 /* DealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B41F1BCC4A6E00D2D3C5 /* DealsTableViewController.swift */; };
+		E509B4291BCC4A6E00D2D3C5 /* DirectoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B4201BCC4A6E00D2D3C5 /* DirectoryDetailsViewController.swift */; };
+		E509B42A1BCC4A6E00D2D3C5 /* DirectoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B4211BCC4A6E00D2D3C5 /* DirectoryTableViewController.swift */; };
+		E509B42B1BCC4A6E00D2D3C5 /* EventsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B4221BCC4A6E00D2D3C5 /* EventsDetailsViewController.swift */; };
+		E509B42C1BCC4A6E00D2D3C5 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B4231BCC4A6E00D2D3C5 /* EventsTableViewController.swift */; };
+		E509B42D1BCC4A6E00D2D3C5 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509B4241BCC4A6E00D2D3C5 /* FeedbackViewController.swift */; };
+		E509B4301BCC4C8500D2D3C5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B42E1BCC4C8500D2D3C5 /* Bolts.framework */; };
+		E509B4311BCC4C8500D2D3C5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B42F1BCC4C8500D2D3C5 /* Parse.framework */; };
 		E509B4331BCC4CE400D2D3C5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4321BCC4CE400D2D3C5 /* AudioToolbox.framework */; };
 		E509B4351BCC4CED00D2D3C5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4341BCC4CED00D2D3C5 /* CFNetwork.framework */; };
 		E509B4371BCC4CF700D2D3C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4361BCC4CF700D2D3C5 /* CoreGraphics.framework */; };
@@ -35,13 +35,14 @@
 		E509B43D1BCC4D1700D2D3C5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B43C1BCC4D1700D2D3C5 /* Security.framework */; };
 		E509B43F1BCC4D2300D2D3C5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B43E1BCC4D2300D2D3C5 /* StoreKit.framework */; };
 		E509B4411BCC4D2D00D2D3C5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4401BCC4D2D00D2D3C5 /* SystemConfiguration.framework */; };
-		E509B4431BCC4EFA00D2D3C5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4421BCC4EFA00D2D3C5 /* libsqlite3.dylib */; };
-		E509B4451BCC4F1600D2D3C5 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4441BCC4F1600D2D3C5 /* libz.1.dylib */; };
-		E509B4471BCC4FF200D2D3C5 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4461BCC4FF200D2D3C5 /* ParseCrashReporting.framework */; settings = {ASSET_TAGS = (); }; };
-		E509B4491BCC505B00D2D3C5 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4481BCC505B00D2D3C5 /* libstdc++.6.0.9.dylib */; };
-		E5548CB81BD58D11006A619E /* EmpolymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5548CB71BD58D11006A619E /* EmpolymentViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		E59765371BCC5CB400D42114 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59765361BCC5CB400D42114 /* Struct.swift */; settings = {ASSET_TAGS = (); }; };
-		E597EB521BCC6FD600DA1AC8 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E509B4431BCC4EFA00D2D3C5 /* MultipleDetailViews in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4421BCC4EFA00D2D3C5 /* MultipleDetailViews */; };
+		E509B4451BCC4F1600D2D3C5 /* MultipleDetailViews in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4441BCC4F1600D2D3C5 /* MultipleDetailViews */; };
+		E509B4471BCC4FF200D2D3C5 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4461BCC4FF200D2D3C5 /* ParseCrashReporting.framework */; };
+		E509B4491BCC505B00D2D3C5 /*  in Frameworks */ = {isa = PBXBuildFile; fileRef = E509B4481BCC505B00D2D3C5 /*  */; };
+		E5548CB81BD58D11006A619E /* EmpolymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5548CB71BD58D11006A619E /* EmpolymentViewController.swift */; };
+		E587E7A61BDAE800004CCC31 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E587E7A51BDAE800004CCC31 /* libz.tbd */; };
+		E59765371BCC5CB400D42114 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59765361BCC5CB400D42114 /* Struct.swift */; };
+		E597EB521BCC6FD600DA1AC8 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,11 +88,12 @@
 		E509B43C1BCC4D1700D2D3C5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		E509B43E1BCC4D2300D2D3C5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		E509B4401BCC4D2D00D2D3C5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		E509B4421BCC4EFA00D2D3C5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
-		E509B4441BCC4F1600D2D3C5 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		E509B4421BCC4EFA00D2D3C5 /* MultipleDetailViews */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MultipleDetailViews; sourceTree = "<group>"; };
+		E509B4441BCC4F1600D2D3C5 /* MultipleDetailViews */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MultipleDetailViews; sourceTree = "<group>"; };
 		E509B4461BCC4FF200D2D3C5 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
-		E509B4481BCC505B00D2D3C5 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		E509B4481BCC505B00D2D3C5 /*  */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ""; sourceTree = "<group>"; };
 		E5548CB71BD58D11006A619E /* EmpolymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpolymentViewController.swift; sourceTree = "<group>"; };
+		E587E7A51BDAE800004CCC31 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		E59765361BCC5CB400D42114 /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 		E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,9 +103,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E509B4491BCC505B00D2D3C5 /* libstdc++.6.0.9.dylib in Frameworks */,
-				E509B4451BCC4F1600D2D3C5 /* libz.1.dylib in Frameworks */,
-				E509B4431BCC4EFA00D2D3C5 /* libsqlite3.dylib in Frameworks */,
+				E587E7A61BDAE800004CCC31 /* libz.tbd in Frameworks */,
+				E509B4491BCC505B00D2D3C5 /*  in Frameworks */,
+				E509B4451BCC4F1600D2D3C5 /* MultipleDetailViews in Frameworks */,
+				E509B4431BCC4EFA00D2D3C5 /* MultipleDetailViews in Frameworks */,
 				E509B4411BCC4D2D00D2D3C5 /* SystemConfiguration.framework in Frameworks */,
 				E509B43F1BCC4D2300D2D3C5 /* StoreKit.framework in Frameworks */,
 				E509B43D1BCC4D1700D2D3C5 /* Security.framework in Frameworks */,
@@ -131,9 +134,10 @@
 		0A9A4BA819F2785A00F81929 = {
 			isa = PBXGroup;
 			children = (
-				E509B4481BCC505B00D2D3C5 /* libstdc++.6.0.9.dylib */,
-				E509B4441BCC4F1600D2D3C5 /* libz.1.dylib */,
-				E509B4421BCC4EFA00D2D3C5 /* libsqlite3.dylib */,
+				E587E7A51BDAE800004CCC31 /* libz.tbd */,
+				E509B4481BCC505B00D2D3C5 /*  */,
+				E509B4441BCC4F1600D2D3C5 /* MultipleDetailViews */,
+				E509B4421BCC4EFA00D2D3C5 /* MultipleDetailViews */,
 				E59765361BCC5CB400D42114 /* Struct.swift */,
 				E509B4461BCC4FF200D2D3C5 /* ParseCrashReporting.framework */,
 				E509B42E1BCC4C8500D2D3C5 /* Bolts.framework */,
@@ -265,6 +269,11 @@
 					0A9A4BB019F2785B00F81929 = {
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = E3YYUERGWY;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					0A9A4BC719F2785B00F81929 = {
 						CreatedOnToolsVersion = 6.0;
