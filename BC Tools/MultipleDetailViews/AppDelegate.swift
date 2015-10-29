@@ -65,6 +65,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
             application.registerForRemoteNotificationTypes(types)
         }
         
+        
         // Override point for customization after application launch.
         let splitViewController = self.window!.rootViewController as! UISplitViewController
         let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
@@ -75,6 +76,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 //        }
         splitViewController.delegate = self
         return true
+    }
+    
+    // Clean badges once app is opened.
+    func applicationDidBecomeActive(application: UIApplication) {
+        let current: PFInstallation = PFInstallation.currentInstallation()
+        if (current.badge != 0) {
+            current.badge = 0
+            current.saveEventually()
+        }
     }
     
     
@@ -100,6 +110,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         }
     }
 
+    
    
     // MARK: - Split view
 
