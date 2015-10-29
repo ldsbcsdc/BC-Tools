@@ -71,8 +71,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Detail View 1" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0XM-y9-sOw">
-                                <rect key="frame" x="20" y="232" width="280" height="17"/>
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="Why should you come to the LDS BC?" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0XM-y9-sOw">
+                                <rect key="frame" x="20" y="87" width="280" height="162"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
@@ -111,25 +111,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Detail View 2" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="h6D-l2-ZDw">
-                                <rect key="frame" x="20" y="232" width="280" height="17"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDP-RL-Gz6">
+                                <rect key="frame" x="15" y="79" width="138" height="186"/>
                                 <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="750" constant="135" id="43t-m9-TOJ"/>
+                                    <constraint firstAttribute="height" priority="750" constant="187" id="9O9-a7-mYH"/>
+                                </constraints>
+                                <state key="normal" title="Job Search"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLg-6W-etz">
+                                <rect key="frame" x="168" y="79" width="137" height="186"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.10588236149999999" green="0.46666669849999998" blue="0.1647058874" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="127" id="gPa-du-vgH"/>
+                                    <constraint firstAttribute="height" constant="183" id="h4Z-4T-XOX"/>
+                                </constraints>
+                                <state key="normal" title="Appointmnets"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gPa-du-vgH"/>
+                                        <exclude reference="h4Z-4T-XOX"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ip4-mp-eb9">
+                                <rect key="frame" x="168" y="280" width="137" height="185"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Feedback"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuO-Gp-OXv">
+                                <rect key="frame" x="15" y="280" width="138" height="185"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Events"/>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="h6D-l2-ZDw" secondAttribute="trailing" constant="20" symbolic="YES" id="hM6-1w-tKe"/>
-                            <constraint firstItem="h6D-l2-ZDw" firstAttribute="centerY" secondItem="rHX-rQ-z5U" secondAttribute="centerY" id="kAu-8D-PtF"/>
-                            <constraint firstItem="h6D-l2-ZDw" firstAttribute="leading" secondItem="rHX-rQ-z5U" secondAttribute="leading" constant="20" symbolic="YES" id="u6Y-1d-hhs"/>
+                            <constraint firstItem="tLg-6W-etz" firstAttribute="top" secondItem="7Pq-6u-uvT" secondAttribute="bottom" constant="15" id="2PH-2v-67t"/>
+                            <constraint firstItem="LuO-Gp-OXv" firstAttribute="width" secondItem="IDP-RL-Gz6" secondAttribute="width" priority="750" id="2zK-c1-oag"/>
+                            <constraint firstItem="tLg-6W-etz" firstAttribute="width" secondItem="IDP-RL-Gz6" secondAttribute="width" priority="750" id="5Lu-em-8Zo"/>
+                            <constraint firstItem="Ip4-mp-eb9" firstAttribute="leading" secondItem="LuO-Gp-OXv" secondAttribute="trailing" constant="15" id="HLr-Jv-0s8"/>
+                            <constraint firstItem="Ip4-mp-eb9" firstAttribute="top" secondItem="tLg-6W-etz" secondAttribute="bottom" constant="15" id="Hwe-nG-juv"/>
+                            <constraint firstAttribute="trailing" secondItem="Ip4-mp-eb9" secondAttribute="trailing" constant="15" id="Ioc-hj-DWU"/>
+                            <constraint firstAttribute="trailing" secondItem="tLg-6W-etz" secondAttribute="trailing" constant="15" id="JGw-5x-VSe"/>
+                            <constraint firstItem="LuO-Gp-OXv" firstAttribute="top" secondItem="IDP-RL-Gz6" secondAttribute="bottom" constant="15" id="OT9-Nm-sWy"/>
+                            <constraint firstItem="tLg-6W-etz" firstAttribute="leading" secondItem="IDP-RL-Gz6" secondAttribute="trailing" constant="15" id="SVm-hu-Rvk"/>
+                            <constraint firstItem="IDP-RL-Gz6" firstAttribute="top" secondItem="7Pq-6u-uvT" secondAttribute="bottom" constant="15" id="Wgd-74-zwf"/>
+                            <constraint firstItem="tLg-6W-etz" firstAttribute="height" secondItem="IDP-RL-Gz6" secondAttribute="height" priority="750" id="brS-Qf-IX4"/>
+                            <constraint firstItem="LuO-Gp-OXv" firstAttribute="leading" secondItem="rHX-rQ-z5U" secondAttribute="leading" constant="15" id="eIR-is-Etz"/>
+                            <constraint firstItem="LuO-Gp-OXv" firstAttribute="height" secondItem="IDP-RL-Gz6" secondAttribute="height" priority="750" id="h7h-vG-M1B"/>
+                            <constraint firstItem="LR2-zT-B7r" firstAttribute="top" secondItem="LuO-Gp-OXv" secondAttribute="bottom" constant="15" id="l9G-ZQ-i6q"/>
+                            <constraint firstItem="LR2-zT-B7r" firstAttribute="top" secondItem="Ip4-mp-eb9" secondAttribute="bottom" constant="15" id="pCt-C1-C1U"/>
+                            <constraint firstItem="IDP-RL-Gz6" firstAttribute="leading" secondItem="rHX-rQ-z5U" secondAttribute="leading" constant="15" id="qX3-L3-Cf6"/>
+                            <constraint firstItem="Ip4-mp-eb9" firstAttribute="leading" secondItem="LuO-Gp-OXv" secondAttribute="trailing" constant="15" id="xBH-Qq-xwR"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="xBH-Qq-xwR"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Empolyment" id="fuW-3p-4Uj"/>
+                    <connections>
+                        <outlet property="heightCon" destination="9O9-a7-mYH" id="goy-0a-lIl"/>
+                        <outlet property="widthCon" destination="43t-m9-TOJ" id="rQ6-mI-boo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7fb-nk-EsW" sceneMemberID="firstResponder"/>
             </objects>
@@ -521,7 +574,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cgO-Uq-Xdo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-572" y="649"/>
+            <point key="canvasLocation" x="-572" y="660"/>
         </scene>
         <!--Events Details View Controller-->
         <scene sceneID="lx1-HA-sdl">
@@ -719,7 +772,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wLd-Tv-fr9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-216" y="674"/>
+            <point key="canvasLocation" x="-216" y="685"/>
         </scene>
         <!--BCSA-->
         <scene sceneID="PY3-3G-6Hu">

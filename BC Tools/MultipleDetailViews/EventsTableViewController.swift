@@ -119,7 +119,8 @@ class EventsTableViewController: UITableViewController {
                             startDate : (object.objectForKey("startDate") as! NSDate),
                             endDate : (object.objectForKey("endDate") as! NSDate),
                             location : (object.objectForKey("location") as! String),
-                            website : (object.objectForKey("website") as? String)!)
+                            website : (object.objectForKey("website") as? String)!,
+                            category : (object.objectForKey("category") as! String))
                         
                         
                         // Set custom style.

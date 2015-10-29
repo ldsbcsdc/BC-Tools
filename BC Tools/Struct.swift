@@ -26,6 +26,7 @@ struct event {
     var endDate : NSDate
     var location : String
     var website : String
+    var category : String
     
 }
 

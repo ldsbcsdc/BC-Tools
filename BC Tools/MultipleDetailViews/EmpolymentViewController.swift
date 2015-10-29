@@ -10,8 +10,15 @@ import UIKit
 
 class EmpolymentViewController: UIViewController {
 
+    @IBOutlet weak var heightCon: NSLayoutConstraint!
+    @IBOutlet weak var widthCon: NSLayoutConstraint!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        heightCon.constant = self.view.frame.size.height / 2
+        widthCon.constant = self.view.frame.size.width / 2
 
         // Do any additional setup after loading the view.
     }
