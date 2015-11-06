@@ -102,8 +102,8 @@ class EventsDetailsViewController: UIViewController, EKEventEditViewDelegate {
         // create event with data from object.
         let event = EKEvent(eventStore: store)
         event.title = (currentEvent?.name)!
-        event.startDate = (currentEvent?.startDate.dateByAddingTimeInterval(21600))!
-        event.endDate = (currentEvent?.endDate.dateByAddingTimeInterval(21600))!
+        event.startDate = (currentEvent?.startDate.dateByAddingTimeInterval(25200))!
+        event.endDate = (currentEvent?.endDate.dateByAddingTimeInterval(25200))!
         event.location = currentEvent?.location
         event.URL = url
         event.notes = currentEvent?.description
