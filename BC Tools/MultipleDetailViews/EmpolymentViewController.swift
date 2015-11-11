@@ -13,31 +13,34 @@ class EmpolymentViewController: UIViewController {
     @IBOutlet weak var heightCon: NSLayoutConstraint!
     @IBOutlet weak var widthCon: NSLayoutConstraint!
     
+    @IBAction func jobButton(sender: AnyObject) {
+        getLink("https://app.smartsheet.com/b/home")
+    }
     
     @IBAction func workshopsButton(sender: AnyObject) {
-        getLink("http://www.eventbrite.com/e/resume-labworkshop-tickets-18720209651?aff=es2")
+        getLink("http://www.eventbrite.com/o/lds-business-college-5412722679")
     }
     
     @IBAction func feedbackButton(sender: AnyObject) {
-        getLink("https://docs.google.com/a/ldsbc.edu/forms/d/1PGgxSl2w9vsp4cq5jxii5Y6AOgCfCJ75o527xOrXD4U/viewform")
+        getLink("https://docs.google.com/a/ldsbc.edu/forms/d/1IjiLH7JQJXGcZPM3ZE2rw9dAN0NjC5SaZ-9uWXjIjbs/viewform?edit_requested=true")
     }
     
     
     
     @IBAction func fbButton(sender: AnyObject) {
-        // page profile id likes like this. "fb://profile/620248604755560"
-        let facebookURL = NSURL(string: "")!
+        // page profile id likes like this. "fb://profile/424097204331940"
+        let facebookURL = NSURL(string: "fb://profile/424097204331940")!
         if UIApplication.sharedApplication().canOpenURL(facebookURL) {
             // Open in native Facebook app.
             UIApplication.sharedApplication().openURL(facebookURL)
         } else {
             // Open in web browser if Facebook app is not installed.
-            UIApplication.sharedApplication().openURL(NSURL(string: "https://www.facebook.com/LDSBCCareerServices/timeline")!)
+            UIApplication.sharedApplication().openURL(NSURL(string: "https://www.facebook.com/LDSBCCareerServices")!)
         }
     }
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad()        
         
         //heightCon.constant = (self.view.frame.size.height / 2) - 500
         //widthCon.constant = self.view.frame.size.width / 2

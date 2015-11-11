@@ -11,7 +11,7 @@ import UIKit
 class MasterViewController: UITableViewController {
 
     // Class variables
-    var pagesArray = ["About Us", "Directory", "Events", "Empolyment", "BCSA", "Deals", "Feedback"]
+    var pagesArray = ["About Us", "Directory", "Events", "Career Services", "BCSA", "Deals", "Feedback"]
 //    var departments = [department]()
     
 
