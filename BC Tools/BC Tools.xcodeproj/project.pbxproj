@@ -40,6 +40,7 @@
 		E50A01CF1BE02CF400B1371B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A01CE1BE02CF400B1371B /* libstdc++.6.0.9.tbd */; };
 		E50A01D11BE02D0F00B1371B /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A01D01BE02D0F00B1371B /* libz.1.tbd */; };
 		E5548CB81BD58D11006A619E /* EmpolymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5548CB71BD58D11006A619E /* EmpolymentViewController.swift */; };
+		E57FEE291BF557040063468D /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FEE281BF557040063468D /* AppointmentViewController.swift */; };
 		E59765371BCC5CB400D42114 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59765361BCC5CB400D42114 /* Struct.swift */; };
 		E597EB521BCC6FD600DA1AC8 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -92,6 +93,7 @@
 		E50A01CE1BE02CF400B1371B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		E50A01D01BE02D0F00B1371B /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
 		E5548CB71BD58D11006A619E /* EmpolymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpolymentViewController.swift; sourceTree = "<group>"; };
+		E57FEE281BF557040063468D /* AppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
 		E59765361BCC5CB400D42114 /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 		E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +172,7 @@
 				0A9A4BB819F2785B00F81929 /* MasterViewController.swift */,
 				E509B41D1BCC4A6E00D2D3C5 /* Cell.swift */,
 				0A9A4BBC19F2785B00F81929 /* Main.storyboard */,
+				E57FEE281BF557040063468D /* AppointmentViewController.swift */,
 				0A9A4BBA19F2785B00F81929 /* DetailViewController.swift */,
 				E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */,
 				E509B4211BCC4A6E00D2D3C5 /* DirectoryTableViewController.swift */,
@@ -325,6 +328,7 @@
 				E59765371BCC5CB400D42114 /* Struct.swift in Sources */,
 				E509B42D1BCC4A6E00D2D3C5 /* FeedbackViewController.swift in Sources */,
 				0A9A4BB919F2785B00F81929 /* MasterViewController.swift in Sources */,
+				E57FEE291BF557040063468D /* AppointmentViewController.swift in Sources */,
 				E509B4271BCC4A6E00D2D3C5 /* DealsDetailsViewController.swift in Sources */,
 				E509B4261BCC4A6E00D2D3C5 /* Cell.swift in Sources */,
 				E597EB521BCC6FD600DA1AC8 /* AboutUsViewController.swift in Sources */,

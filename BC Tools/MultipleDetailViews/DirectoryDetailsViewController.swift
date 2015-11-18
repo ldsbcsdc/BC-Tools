@@ -29,13 +29,13 @@ class DirectoryDetailsViewController: UIViewController, MFMailComposeViewControl
     @IBOutlet weak var locationTop: NSLayoutConstraint!
     @IBOutlet weak var phoneTop: NSLayoutConstraint!
     @IBOutlet weak var emailTop: NSLayoutConstraint!
+    @IBOutlet weak var webTop: NSLayoutConstraint!
     
     // Height constraints
     @IBOutlet weak var locationHeight: NSLayoutConstraint!
     @IBOutlet weak var phoneHeight: NSLayoutConstraint!
     @IBOutlet weak var emailHeight: NSLayoutConstraint!
-    
-    
+    @IBOutlet weak var webHeight: NSLayoutConstraint!
     
     
     // Class variables.
@@ -87,12 +87,14 @@ class DirectoryDetailsViewController: UIViewController, MFMailComposeViewControl
         }
         
         // Website button. Display only if field has content.
-        if currentDepart?.website == "" {
-            websiteButton.hidden = true
-            websiteImage.hidden = true
-        } else {
+        if currentDepart?.website != "" {
             websiteButton.hidden = false
             websiteImage.hidden = false
+        } else {
+            websiteButton.hidden = true
+            websiteImage.hidden = true
+            webTop.constant = 0
+            webHeight.constant = 0
         }
         
     }
