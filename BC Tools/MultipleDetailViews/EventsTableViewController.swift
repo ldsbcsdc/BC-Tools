@@ -9,11 +9,11 @@
 import UIKit
 import Parse
 
-class EventsTableViewController: UITableViewController, UISearchBarDelegate, UISearchDisplayDelegate {
+class EventsTableViewController: UITableViewController {
 
     // Class variables
     var events = [event]()
-    var filteredCandies = [event]()
+    var filteredEvents = [event]()
     
     // Create activityIndicator.
     var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
@@ -186,40 +186,6 @@ class EventsTableViewController: UITableViewController, UISearchBarDelegate, UIS
         //UIApplication.sharedApplication().endIgnoringInteractionEvents()
     }
     
-//    func filterContentForSearchText(searchText: String) {
-//        // Filter the array using the filter method
-//        if self.events == nil {
-//            self.filteredCandies = nil
-//            return
-//        }
-//        self.filteredCandies = self.events.filter({( aSpecies: event) -> Bool in
-//            // to start, let's just search by name
-//            return aSpecies.name.lowercaseString.rangeOfString(searchText.lowercaseString) != nil
-//        })
-//    }
-    
-//    func filterContentForSearchText(searchText: String) {
-//        // Filter the array using the filter method
-//        self.filteredCandies = self.events.filter({( candy: event) -> Bool in
-//            let categoryMatch = (scope == "All") || (candy.category == scope)
-//            let stringMatch = candy.name.rangeOfString(searchText)
-//            return categoryMatch && (stringMatch != nil)
-//        })
-//    }
-    
-//    func searchDisplayController(controller: UISearchDisplayController, shouldReloadTableForSearchString searchString: String?) -> Bool {
-//        self.filterContentForSearchText(searchString!)
-////        let scopes = self.searchDisplayController!.searchBar.scopeButtonTitles! as [String]
-////        let selectedScope = scopes[self.searchDisplayController!.searchBar.selectedScopeButtonIndex] as String
-////        self.filterContentForSearchText(searchString, scope: selectedScope)
-//        return true
-//    }
-    
-//    func searchDisplayController(controller: UISearchDisplayController, shouldReloadTableForSearchScope searchOption: Int) -> Bool {
-//        let scope = self.searchDisplayController!.searchBar.scopeButtonTitles! as [String]
-//        self.filterContentForSearchText(self.searchDisplayController.searchBar.text, scope: scope[searchOption])
-//        return true
-//    }
 
     /*
     // Override to support conditional editing of the table view.
