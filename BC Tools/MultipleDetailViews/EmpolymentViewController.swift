@@ -13,8 +13,15 @@ class EmpolymentViewController: UIViewController {
     @IBOutlet weak var heightCon: NSLayoutConstraint!
     @IBOutlet weak var widthCon: NSLayoutConstraint!
     
+    // Button outlets
+    @IBOutlet weak var jobSearchButton: UIButton!
+    @IBOutlet weak var appointmentsButton: UIButton!
+    @IBOutlet weak var workshopsButton: UIButton!
+    @IBOutlet weak var feedbackButton: UIButton!
+    
+    
     @IBAction func jobButton(sender: AnyObject) {
-        getLink("https://app.smartsheet.com/b/home")
+        getLink("https://app.smartsheet.com/b/mpublish?EQBCT=fbae046f0612479eadfdbebc2a77517e#sheet")
     }
     
     @IBAction func workshopsButton(sender: AnyObject) {
@@ -28,7 +35,7 @@ class EmpolymentViewController: UIViewController {
     
     
     @IBAction func fbButton(sender: AnyObject) {
-        // page profile id likes like this. "fb://profile/424097204331940"
+        // page profile id looks like this. "fb://profile/424097204331940"
         let facebookURL = NSURL(string: "fb://profile/424097204331940")!
         if UIApplication.sharedApplication().canOpenURL(facebookURL) {
             // Open in native Facebook app.
@@ -40,10 +47,17 @@ class EmpolymentViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-        super.viewDidLoad()        
+        super.viewDidLoad()
+        // set button views to Aspect Fit
+        jobSearchButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
+        appointmentsButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
+        workshopsButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
+        feedbackButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
         
-        //heightCon.constant = (self.view.frame.size.height / 2) - 500
-        //widthCon.constant = self.view.frame.size.width / 2
+        heightCon.constant = (self.view.frame.size.height / 2) - 500
+        widthCon.constant = self.view.frame.size.width / 2
+        
+        
 
         // Do any additional setup after loading the view.
     }

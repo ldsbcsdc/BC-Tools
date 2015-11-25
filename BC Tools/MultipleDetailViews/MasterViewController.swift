@@ -44,7 +44,7 @@ class MasterViewController: UITableViewController {
 //                // Fallback on earlier versions
 //            }
             controller.navigationItem.leftItemsSupplementBackButton = true
-        } else if segue.identifier == "Empolyment" {
+        } else if segue.identifier == "Career Services" {
             let controller = (segue.destinationViewController as! UINavigationController).topViewController as! EmpolymentViewController
             //            if #available(iOS 8.0, *) {
             controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()

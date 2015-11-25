@@ -40,6 +40,7 @@
 		E50A01CF1BE02CF400B1371B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A01CE1BE02CF400B1371B /* libstdc++.6.0.9.tbd */; };
 		E50A01D11BE02D0F00B1371B /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A01D01BE02D0F00B1371B /* libz.1.tbd */; };
 		E5548CB81BD58D11006A619E /* EmpolymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5548CB71BD58D11006A619E /* EmpolymentViewController.swift */; };
+		E57F75981C06401F00865E74 /* OverrideClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57F75971C06401F00865E74 /* OverrideClasses.swift */; };
 		E57FEE291BF557040063468D /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FEE281BF557040063468D /* AppointmentViewController.swift */; };
 		E59765371BCC5CB400D42114 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59765361BCC5CB400D42114 /* Struct.swift */; };
 		E597EB521BCC6FD600DA1AC8 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */; };
@@ -93,6 +94,7 @@
 		E50A01CE1BE02CF400B1371B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		E50A01D01BE02D0F00B1371B /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
 		E5548CB71BD58D11006A619E /* EmpolymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpolymentViewController.swift; sourceTree = "<group>"; };
+		E57F75971C06401F00865E74 /* OverrideClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverrideClasses.swift; sourceTree = "<group>"; };
 		E57FEE281BF557040063468D /* AppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
 		E59765361BCC5CB400D42114 /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 		E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				0A9A4BB819F2785B00F81929 /* MasterViewController.swift */,
 				E509B41D1BCC4A6E00D2D3C5 /* Cell.swift */,
 				0A9A4BBC19F2785B00F81929 /* Main.storyboard */,
+				E57F75971C06401F00865E74 /* OverrideClasses.swift */,
 				E57FEE281BF557040063468D /* AppointmentViewController.swift */,
 				0A9A4BBA19F2785B00F81929 /* DetailViewController.swift */,
 				E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */,
@@ -334,6 +337,7 @@
 				E597EB521BCC6FD600DA1AC8 /* AboutUsViewController.swift in Sources */,
 				E509B4281BCC4A6E00D2D3C5 /* DealsTableViewController.swift in Sources */,
 				E5548CB81BD58D11006A619E /* EmpolymentViewController.swift in Sources */,
+				E57F75981C06401F00865E74 /* OverrideClasses.swift in Sources */,
 				E509B4251BCC4A6E00D2D3C5 /* BCSAViewController.swift in Sources */,
 				0A9A4BDB19F291A400F81929 /* DetailViewController2.swift in Sources */,
 				0A9A4BB719F2785B00F81929 /* AppDelegate.swift in Sources */,
@@ -479,6 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.ldsbc.BC-Tools";
 				PRODUCT_NAME = "BC Tools";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -499,6 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.ldsbc.BC-Tools";
 				PRODUCT_NAME = "BC Tools";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
