@@ -84,6 +84,8 @@ class DirectoryTableViewController: UITableViewController {
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let selectedDepart = departments[indexPath.row]
                 secondScene.currentDepart = selectedDepart
+//                // Dont worry about ScrollView in the secondScene.
+//                self.tableView.delegate = nil
             }
         }
     }

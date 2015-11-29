@@ -40,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         
         //  Push
         // Register for Push Notitications
-        if application.applicationState != UIApplicationState.Background {
+                if application.applicationState != UIApplicationState.Background {
             // Track an app open here if we launch with a push, unless
             // "content_available" was used to trigger a background push (introduced in iOS 7).
             // In that case, we skip tracking here to avoid double counting the app-open.
@@ -55,15 +55,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
                 PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
             }
         }
-        if application.respondsToSelector("registerUserNotificationSettings:") {
+//        if application.respondsToSelector("registerUserNotificationSettings:") {
             let userNotificationTypes = UIUserNotificationType([.Alert, .Badge, .Sound])
             let settings = UIUserNotificationSettings(forTypes: userNotificationTypes, categories: nil)
             application.registerUserNotificationSettings(settings)
             application.registerForRemoteNotifications()
-        } else {
-            let types = UIRemoteNotificationType([.Badge, .Alert, .Sound])
-            application.registerForRemoteNotificationTypes(types)
-        }
+//        } else {
+//            let types = UIUserNotificationType([.Badge, .Alert, .Sound])
+//            application.registerForRemoteNotifications()
+//        }
         
         
         // Override point for customization after application launch.
@@ -109,7 +109,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
             PFAnalytics.trackAppOpenedWithRemoteNotificationPayload(userInfo)
         }
     }
-
     
    
     // MARK: - Split view

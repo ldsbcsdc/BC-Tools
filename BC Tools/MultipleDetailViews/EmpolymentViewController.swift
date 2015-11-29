@@ -24,6 +24,10 @@ class EmpolymentViewController: UIViewController {
         getLink("https://app.smartsheet.com/b/mpublish?EQBCT=fbae046f0612479eadfdbebc2a77517e#sheet")
     }
     
+    @IBAction func appointmentsButton(sender: AnyObject) {
+        self.performSegueWithIdentifier("appointmentsSegue", sender: parentViewController)
+    }
+    
     @IBAction func workshopsButton(sender: AnyObject) {
         getLink("http://www.eventbrite.com/o/lds-business-college-5412722679")
     }
