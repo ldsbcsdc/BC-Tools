@@ -17,64 +17,37 @@ class MasterViewController: UITableViewController {
 
     // MARK: - Segues
 
+    // set back button for each view. This needs to be set so button shows when in partiate on iPads.
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "About Us" {
             if let _ = self.tableView.indexPathForSelectedRow {
                 let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DetailViewController
-//                if #available(iOS 8.0, *) {
                     controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
-//                } else {
-//                    // Fallback on earlier versions
-//                }
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }
         } else if segue.identifier == "Directory" {
             let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DirectoryTableViewController
-            //            if #available(iOS 8.0, *) {
             controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
-            //            } else {
-            //                // Fallback on earlier versions
-            //            }
             controller.navigationItem.leftItemsSupplementBackButton = true
         } else if segue.identifier == "Events" {
             let controller = (segue.destinationViewController as! UINavigationController).topViewController as! EventsTableViewController
-//            if #available(iOS 8.0, *) {
                 controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
-//            } else {
-//                // Fallback on earlier versions
-//            }
             controller.navigationItem.leftItemsSupplementBackButton = true
         } else if segue.identifier == "Career Services" {
             let controller = (segue.destinationViewController as! UINavigationController).topViewController as! EmpolymentViewController
-            //            if #available(iOS 8.0, *) {
             controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
-            //            } else {
-            //                // Fallback on earlier versions
-            //            }
             controller.navigationItem.leftItemsSupplementBackButton = true
         } else if segue.identifier == "BCSA" {
             let controller = (segue.destinationViewController as! UINavigationController).topViewController as! BCSAViewController
-            //            if #available(iOS 8.0, *) {
             controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
-            //            } else {
-            //                // Fallback on earlier versions
-            //            }
             controller.navigationItem.leftItemsSupplementBackButton = true
         } else if segue.identifier == "Deals" {
             let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DealsTableViewController
-            //            if #available(iOS 8.0, *) {
             controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
-            //            } else {
-            //                // Fallback on earlier versions
-            //            }
             controller.navigationItem.leftItemsSupplementBackButton = true
         } else if segue.identifier == "Feedback" {
             let controller = (segue.destinationViewController as! UINavigationController).topViewController as! FeedbackViewController
-            //            if #available(iOS 8.0, *) {
             controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
-            //            } else {
-            //                // Fallback on earlier versions
-            //            }
             controller.navigationItem.leftItemsSupplementBackButton = true
         }
         

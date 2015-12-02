@@ -43,7 +43,6 @@
 		E57F75981C06401F00865E74 /* OverrideClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57F75971C06401F00865E74 /* OverrideClasses.swift */; };
 		E57FEE291BF557040063468D /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FEE281BF557040063468D /* AppointmentViewController.swift */; };
 		E59765371BCC5CB400D42114 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59765361BCC5CB400D42114 /* Struct.swift */; };
-		E597EB521BCC6FD600DA1AC8 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,7 +96,6 @@
 		E57F75971C06401F00865E74 /* OverrideClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverrideClasses.swift; sourceTree = "<group>"; };
 		E57FEE281BF557040063468D /* AppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
 		E59765361BCC5CB400D42114 /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
-		E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,7 +175,6 @@
 				E57F75971C06401F00865E74 /* OverrideClasses.swift */,
 				E57FEE281BF557040063468D /* AppointmentViewController.swift */,
 				0A9A4BBA19F2785B00F81929 /* DetailViewController.swift */,
-				E597EB511BCC6FD600DA1AC8 /* AboutUsViewController.swift */,
 				E509B4211BCC4A6E00D2D3C5 /* DirectoryTableViewController.swift */,
 				E509B4201BCC4A6E00D2D3C5 /* DirectoryDetailsViewController.swift */,
 				E509B4231BCC4A6E00D2D3C5 /* EventsTableViewController.swift */,
@@ -334,7 +331,6 @@
 				E57FEE291BF557040063468D /* AppointmentViewController.swift in Sources */,
 				E509B4271BCC4A6E00D2D3C5 /* DealsDetailsViewController.swift in Sources */,
 				E509B4261BCC4A6E00D2D3C5 /* Cell.swift in Sources */,
-				E597EB521BCC6FD600DA1AC8 /* AboutUsViewController.swift in Sources */,
 				E509B4281BCC4A6E00D2D3C5 /* DealsTableViewController.swift in Sources */,
 				E5548CB81BD58D11006A619E /* EmpolymentViewController.swift in Sources */,
 				E57F75981C06401F00865E74 /* OverrideClasses.swift in Sources */,
