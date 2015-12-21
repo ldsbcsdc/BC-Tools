@@ -72,7 +72,7 @@ class DealsTableViewController: UITableViewController {
             // Set cell title.
             myCell.dealTitle.text = currentDeal.title
         } else {
-            myCell.dealTitle.text = "No deals avalable at this time."
+            myCell.dealTitle.text = "No deals available at this time."
         }
         
         
