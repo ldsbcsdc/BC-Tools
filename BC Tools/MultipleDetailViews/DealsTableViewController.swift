@@ -49,23 +49,32 @@ class DealsTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return deals.count
+        if (deals.count != 0){
+            return deals.count
+        } else {
+            return 1
+        }
+        
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let myCell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! Cell // "Cell" is the custom UITableViewCell class created in "Cell.swift" file.
-        
-        let currentDeal = deals[indexPath.row]
-        
-        // Get image from parse and set it to the cell image.
-        currentDeal.image.getDataInBackgroundWithBlock {(date, error) -> Void in
-            if let dealImage = UIImage(data: date!) {
-                myCell.dealImage.image = dealImage
+        if (deals.count != 0){
+            let currentDeal = deals[indexPath.row]
+            
+            // Get image from parse and set it to the cell image.
+            currentDeal.image.getDataInBackgroundWithBlock {(date, error) -> Void in
+                if let dealImage = UIImage(data: date!) {
+                    myCell.dealImage.image = dealImage
+                }
             }
+            // Set cell title.
+            myCell.dealTitle.text = currentDeal.title
+        } else {
+            myCell.dealTitle.text = "No deals avalable at this time."
         }
-        // Set cell title.
-        myCell.dealTitle.text = currentDeal.title
+        
         
         
         return myCell
@@ -73,7 +82,10 @@ class DealsTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         // Activate segue when row is touched.
-        self.performSegueWithIdentifier("dealDetails", sender: parentViewController)
+        if (deals.count != 0) {
+            self.performSegueWithIdentifier("dealDetails", sender: parentViewController)
+        }
+        
     }
     
     // Hide tab bar in child view.

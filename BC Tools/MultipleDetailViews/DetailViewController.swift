@@ -11,7 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
 
 
-    @IBOutlet weak var aboutUsWebview: UIWebView!
+    
 
     var detailItem: AnyObject? {
         didSet {
@@ -31,8 +31,7 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Embed feedback form into the view.
-        UIWebView.loadRequest(aboutUsWebview)(NSURLRequest(URL: NSURL(string: "https://www.ldsbc.edu/index.php?option=com_content&view=article&id=1074&Itemid=1062")!))
+        
         
         // Do any additional setup after loading the view, typically from a nib.
 //        self.configureView()
