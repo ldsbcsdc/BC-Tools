@@ -50,32 +50,44 @@ class EventsTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return events.count
+        if (events.count != 0){
+            return events.count
+        } else {
+            return 1
+        }
+        
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier("cell") as UITableViewCell!
         
-        let currentEvent = events[indexPath.row]
-        
-        // Set cell style to have subtitle.
-        if cell != nil {
-            cell = UITableViewCell(style:.Subtitle, reuseIdentifier: "cell")
+        if (events.count != 0) {
+            let currentEvent = events[indexPath.row]
+            
+            // Set cell style to have subtitle.
+            if cell != nil {
+                cell = UITableViewCell(style:.Subtitle, reuseIdentifier: "cell")
+            }
+            // Set time zone.
+            dateFormatter.timeZone = NSTimeZone(forSecondsFromGMT: 0)
+            // Set cell title.
+            cell.textLabel?.text = currentEvent.name
+            // Set cell subtitle.
+            cell.detailTextLabel?.text = dateFormatter.stringFromDate(currentEvent.startDate)
+        } else {
+            cell.textLabel?.text = "No upcoming events at this time."
         }
-        // Set time zone.
-        dateFormatter.timeZone = NSTimeZone(forSecondsFromGMT: 0)
-        // Set cell title.
-        cell.textLabel?.text = currentEvent.name
-        // Set cell subtitle.
-        cell.detailTextLabel?.text = dateFormatter.stringFromDate(currentEvent.startDate)
+        
         
         return cell
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        // Activate segue when row is touched.
-        self.performSegueWithIdentifier("eventDetails", sender: parentViewController)
+        if (events.count != 0){
+            // Activate segue when row is touched.
+            self.performSegueWithIdentifier("eventDetails", sender: parentViewController)
+        }
     }
     
     // Hide tab bar in child view.
